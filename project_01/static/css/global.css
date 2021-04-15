@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+
+  ul{
+      list-style: none;
+  }
+  a{
+      text-decoration: none;
+  }
+  body{
+      padding-top: 41px;
+  }
+  figure{
+      width: 30%;
+      display: inline-block;
+      margin-left: 10px;
+  }
+
+  figure a{
+      display: inline-block;
+  }
+
+  /* 给vue-priview组件添加样式 */
+  figure a img{
+      width: 100px;
+      height: 100px;
+  }
+
+  /* 新闻详情的按钮 */
+  .btn button{
+    margin-bottom:5px ;
+}
